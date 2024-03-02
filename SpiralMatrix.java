@@ -3,17 +3,17 @@ package demo;
 public class SpiralMatrix {
   	  public static void spiralMatrix(int[][] arr){
 
-		    int rows = arr.length;
-		    int col = arr[0].length;
+		    int rows=arr.length;
+		    int col=arr[0].length;
 		 
-		  int top=0,bottom =rows - 1,left = 0,right=col-1;
+		  int top=0,bottom=rows-1,left=0,right=col-1;
 		  
 		  int dir=1;
 		 
-		  while (top <= bottom && left <= right){
+		  while (top<=bottom&&left<=right){
 
 		    if (dir==1) {    
-		      for (int i = left; i <= right;++i) {
+		      for (int i=left;i<=right;++i) {
 		        System.out.print(arr[top][i]+" ");
 		      }
 		      ++top;
@@ -33,10 +33,10 @@ public class SpiralMatrix {
 		      }
 		   
 		      --bottom;
-		      dir = 4;
+		      dir=4;
 		    } 
-		    else if (dir==4) {     
-		      for (int i=bottom;i>=top;--i) {
+		    else if(dir==4) {     
+		      for(int i=bottom;i>=top;--i) {
 		          System.out.print(arr[i][left]+" ");
 		      }
 	
