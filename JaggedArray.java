@@ -8,7 +8,7 @@ public class JaggedArray {
 			Scanner scan= new Scanner(System.in);
 			int[][]arr;
 			System.out.print("Enter the number of persons:");
-		    arr=new int[scan.nextInt()][];
+		        arr=new int[scan.nextInt()][];
 		     do
 		     {
 		    	 System.out.println("press 1 => Add Nth persons weigth:");
