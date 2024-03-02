@@ -9,6 +9,7 @@ public class JaggedArray {
 			int[][]arr;
 			System.out.print("Enter the number of persons:");
 		        arr=new int[scan.nextInt()][];
+	             menu:		
 		     do
 		     {
 		    	 System.out.println("press 1 => Add Nth persons weigth:");
@@ -34,7 +35,7 @@ public class JaggedArray {
 					  }
 					  else
 						  System.out.println("invalid input");
-					     break;
+					          break;
 					 
 				   }
 				   case 2->
@@ -45,7 +46,7 @@ public class JaggedArray {
 				   }
 				   case 3->
 				   {
-					   break;
+					   break menu;
 				   }
 			      
 				   default->
